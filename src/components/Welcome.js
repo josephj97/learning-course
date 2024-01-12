@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// Class Components
 class Welcome extends Component {
     render() {
         return <h2>Welcome everyone</h2>

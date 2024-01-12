@@ -10,7 +10,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       {/* <Greet/> */}
       {/* <Welcome/> */}
-      <Hello></Hello>
+      <Hello name="Joseph"></Hello>
     </div>
   );
 }

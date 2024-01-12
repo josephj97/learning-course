@@ -11,6 +11,7 @@ function App() {
       {/* <Greet/> */}
       {/* <Welcome/> */}
       <Hello name="Joseph"></Hello>
+      <Welcome name="Joseph" nickname="Joe"></Welcome>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       {/* <Greet/> */}
       {/* <Welcome/> */}
-      {/* <Hello name="Joseph"></Hello> */}
+      <Hello name="Joseph"></Hello>
       {/* <Welcome name="Joseph" nickname="Joe"></Welcome> */}
       {/* <Message></Message> */}
       <Counter></Counter>

@@ -6,6 +6,7 @@ import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Welcome name="Joseph" nickname="Joe"></Welcome> */}
       {/* <Message></Message> */}
       {/* <Counter></Counter> */}
-      <FunctionClick></FunctionClick>
+      {/* <FunctionClick></FunctionClick> */}
+      <ClassClick></ClassClick>
     </div>
   );
 }

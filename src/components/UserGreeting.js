@@ -5,7 +5,7 @@ class UserGreeting extends Component {
         super(props)
 
         this.state = {
-            isLoggedIn: false
+            isLoggedIn: true
         }
     }
     render() {
@@ -17,14 +17,16 @@ class UserGreeting extends Component {
         //     return <div>Hello Guest!</div>
         // }
 
-        let message
-        if (this.state.isLoggedIn) {
-            message = <div>Hello Jozz</div>
-        } else {
-            message = <div>Hello Guest!</div>
-        }
+        // Element Variables conditional rendering
+        // let message
+        // if (this.state.isLoggedIn) {
+        //     message = <div>Hello Jozz</div>
+        // } else {
+        //     message = <div>Hello Guest!</div>
+        // }
+        // return <div>{message}</div>
 
-        return <div>{message}</div>
+        return this.state.isLoggedIn? <div>Hello Jozz</div> : <div>Hello Guest!</div>
     }
 }
 

@@ -5,7 +5,7 @@ class UserGreeting extends Component {
         super(props)
 
         this.state = {
-            isLoggedIn: true
+            isLoggedIn: false
         }
     }
     render() {
@@ -26,7 +26,11 @@ class UserGreeting extends Component {
         // }
         // return <div>{message}</div>
 
-        return this.state.isLoggedIn? <div>Hello Jozz</div> : <div>Hello Guest!</div>
+        // Ternary Conditional Operator(? :) conditional rendering
+        // return this.state.isLoggedIn? <div>Hello Jozz</div> : <div>Hello Guest!</div>
+
+        // Short Circuit Operator(&&) conditional rendering
+        return this.state.isLoggedIn && <div>Hello Jozz</div>
     }
 }
 

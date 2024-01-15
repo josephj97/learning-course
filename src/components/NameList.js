@@ -23,7 +23,7 @@ function NameList() {
         }]
 
     const playlist = tracks.map(track =>
-        <Track track={track}></Track>
+        <Track key={track.trackUri} track={track}></Track>
     )
     return (
         <div>{playlist}</div>

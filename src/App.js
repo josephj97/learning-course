@@ -13,6 +13,7 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       {/* <Greet/> */}
       {/* <Welcome/> */}
-      <Hello name="Joseph"></Hello>
+      {/* <Hello name="Joseph"></Hello> */}
       {/* <Welcome name="Joseph" nickname="Joe"></Welcome> */}
       {/* <Message></Message> */}
       {/* <Counter></Counter> */}
@@ -31,7 +32,8 @@ function App() {
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
       {/* <Stylesheet primary={true}></Stylesheet> */}
-      <Inline></Inline>
+      {/* <Inline></Inline> */}
+      <Form></Form>
     </div>
   );
 }
